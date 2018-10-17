@@ -25,6 +25,6 @@ void = { version = "1", default-features = false }
 byteorder = { version = "1", optional = true }
 
 [features]
-default = ["use_std"]
+default = ["std"]
 
-use_std = ["void/std"]
+std = ["void/std"]
